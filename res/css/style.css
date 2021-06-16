@@ -1,0 +1,534 @@
+body, html{
+    width: 100%;
+}
+
+body{
+    font-family: Roboto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+/** Header **/
+
+.a1{
+    /* Anais do Simpósio Latino Americano de Ciências de Alimentos */
+
+    position: absolute;
+    left: 50px;
+    top: 3px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.a1-but{
+    /* botão - idiomas */
+
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    right: 60%;
+    margin: auto;
+    top: 20px;
+
+    background-color: #FDF1EB;
+    border-radius: 5%;
+    opacity: 75%;
+}
+
+.img-linguage{
+    position: absolute;
+    right: 71%;
+    top: 26px;
+    height: 25px;
+}
+
+.img-perfil{
+    position: absolute;
+    left: 85%;
+    top: 19px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.notificacao{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80%;
+
+    color: #FFFFFF;
+
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: red;
+    left: 88.3%;
+    top: 14px
+}
+
+.notificacao:hover{
+    width: 22px;
+    height: 22px;
+    transition: 0.2s;
+}
+
+.text-bemvindo{
+    /* Bem vindo! */
+    position: absolute;
+    height: 18px;
+    right: 17%;
+    top: 19px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.text-email{
+    /* alguem12@galoascience.com */
+    position: absolute;
+    right: 17%;
+    top: 40px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    
+}
+
+.text-manchete{
+    /* Anais do 13º Simpósio Latino Americano de Ciência de Alimentos */
+    position: absolute;
+    top: 25px;
+    left: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+
+}
+
+.text-codigo{
+    /* ISSN: 1234-5678 */
+    position: absolute;
+    left: 50px;
+    top: 55px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header-fundo{
+    /* header */
+    height: 80px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    color: rgba(114, 92, 92, 1);
+    background: #FDF1EB;
+
+}
+
+.header-fundo a{
+    padding: 0px;
+    margin: 0;
+}
+
+/* Navegador */
+.nav-titulo a{
+    left: 0vw;
+    top: 0vh;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 35px;
+
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+
+}
+
+.nav-titulo{
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.nav-titulo img{
+    left: 0vw;
+    width:100%;
+}
+
+.nav_tabs{
+    margin: 0;
+    padding: 0;
+    top: -100px;
+}
+
+.nav_tabs ul{
+    list-style: none;
+}
+
+.nav_tabs label{
+    color: rgba(114, 92, 92, 1);
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0px 2px rgb(214, 214, 214);
+    margin: 2px;
+    width: 100%;
+}
+
+.nav_tabs label:hover{
+    background-color: #FDF1EB;
+    transition: 0.1s;
+}
+
+.rd_tabs:checked ~ .marcador{
+    position: absolute;
+    height: 40px;
+    width: 7px;
+    top: auto ;
+    background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+}
+
+.rd_tabs:checked ~ label{
+    border: black;
+    background-color: #FDF1EB;
+}
+
+.rd_tabs{
+    display: none;
+}
+
+/* Corpo da página */
+
+.corpo{
+    margin: 25px;
+}
+
+.titulo_materia{
+    font-weight: bold;
+    color: rgba(237, 120, 57, 1);
+    font-size: 25px;
+}
+
+.quadro_video{
+    position: absolute;
+    margin-right: 25px;
+    height: 580px;
+    width: 97.3%;
+    top: 90px;
+}
+
+.quadro_img{
+    height: 580px;
+    border-radius: 5px;
+    top: 90px;
+    width: 100%;
+}
+
+.quadro_video div{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(141, 53, 6, 0.5);
+    background-size: 100%;
+    border-radius: 5px;
+    padding: 3%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.quadro_video h4{
+    position: absolute;
+    top: 380px;
+    left: 20%;
+    width: 100%;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+}
+
+.quadro_video p{
+    position: absolute;
+    left: 20%;
+    top: 425px;
+    width: 100%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.quadro_video a{
+    width: 100%;
+}
+
+.quadro_video div img{
+    position: absolute;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    top: 350px;
+    left: 5%;
+    border: 2px solid rgba(237, 120, 57, 1);
+    box-sizing: border-box;
+}
+
+.quadro_video:hover{
+    opacity: 0%;
+    transition: 0.5s;
+}
+
+.lateral div{
+    margin-right: 70px;
+}
+
+.lateral button{
+    background: #ED7839;
+    border-radius: 4px;
+    border-style: none;
+    height: 35px;
+    margin: 5px;
+    right: 0;
+}
+
+.lateral button:hover{
+    background: #8b4520;
+    transition: 0.3s;
+}
+
+.lateral_top{
+    color: #ED7839;
+}
+
+.lateral_top a{
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+    right: 0;
+}
+
+.lateral_bottom{
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    margin: 0;
+    color: #4E4E4E;
+    height: 500px;
+}
+
+.lateral_bottom div{
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 0;
+    padding: 10px;
+    background: white;
+    height: 100%;
+}
+
+.lateral_titulo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 15px;
+    margin:0;
+}
+
+.lateral_bottom p{
+    margin-bottom: 20px;
+}
+
+.btn_download{
+    width: 160px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.btn_download img{
+    width: 19px;
+}
+
+.btn_download a{
+    top: 5px;
+}
+
+.btn_lateral{
+    width: 60px;
+}
+
+.btn_lateral img{
+    width: 20px;
+}
+
+/* Rodopé */
+
+.rodape{
+    width: 100%;
+    height: 221px;
+    padding: 0 4% 0 2%;
+    margin: 0;
+}
+
+.rodape div{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px -2px 0px rgba(138, 138, 138, 0.25);
+}
+
+.footer_galoa{
+    color: rgb(45, 24, 65);
+}
+.rodape div h4{
+    font-family: Arial, monospace, serif;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 0;
+    margin-top: 45px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+}
+
+.rodape div a{
+    font-family: Arial, monospace, serif;
+    font-weight: 550;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+
+.rodape div button{
+    background-color: rgb(147, 73, 216);
+    color: white;
+    height: 40px;
+    width: 230px;
+    border-radius: 10px;
+    font-family: Arial, monospace, sans-serif;
+    border: none;
+}
+
+.rodape div button:hover{
+    background-color:rgb(45, 24, 65);
+    transition: 0.2s;
+}
+
+.rodape div div{
+    position: absolute;
+    height: 1.5px;
+    width: 20px;
+    background: rgb(45, 24, 65);
+}
+
+.line_1{
+    left: 20%;
+    top: 115px;
+}
+
+.line_2{
+    left: 75%;
+    top: 115px;
+}
+
+.rodape div p{
+    position: absolute;
+    font-family: Roboto;
+    text-align: left;
+    top: 30px;
+    color: rgb(107, 107, 107);
+}
+
+.footer_text{
+   margin-top: 70px;
+}
+
+.rodape div p a{
+    font-weight: bold;
+}
+
+.menu{
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    
+    height: 100vh;
+    left: 0vw;
+    top: 0vh;
+}
+
+.menu_air{
+    position: fixed;
+    left: 0vw;
+    top: 50vh;
+    height: 80px;
+    width: 80px;
+    border-radius: 0 8px 8px 0;
+    background-color: #ED7839;
+    transition: 0.3s;
+    border: none;
+}
+
+.menu_air img{
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    opacity: 50%;
+}
